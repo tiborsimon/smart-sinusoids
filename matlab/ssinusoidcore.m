@@ -220,7 +220,7 @@ catch
    end
 end
 
-s = data.A .* s;
+s = data.A .* s(:);
 
 if nargout == 1
     out1 = s;
@@ -252,7 +252,7 @@ end
         phi = data.phi;
         
         k = 0:n-1;
-        k = k'/n;
+        k = k/n;
         phi = phi*pi/180;
         s = trigfun(2*pi*N*k + phi);
     end
@@ -275,7 +275,7 @@ end
         fs = get_fs();
         phi = data.phi;
         
-        k = 0:1/fs:(N/f);
+        k = 0:1/fs:(N/f)-1/fs;
         phi = phi*pi/180;
         s = trigfun(2*pi*f*k + phi);
     end
