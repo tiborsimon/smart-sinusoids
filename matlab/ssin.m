@@ -97,14 +97,17 @@ function [out1, out2] = ssin( varargin )
 
 MODULE_NAME = 'SmartSinusoids';
 
-if nargout == 1
-    out1 = ssinusoidcore(@sin, varargin);
-elseif nargout == 2
-    [t, s] = ssinusoidcore(@sin, varargin);
-    out1 = t;
-    out2 = s;
-else
-    throw_exception('argumenterror', 'Number of output argument mismatch.');
+switch nargout
+    case 0
+        s = ssinusoidcore(@sin, varargin)
+    case 1
+        out1 = ssinusoidcore(@sin, varargin);
+    case 2
+        [t, s] = ssinusoidcore(@sin, varargin);
+        out1 = t;
+        out2 = s;
+    otherwise
+        throw_exception('argumenterror', 'Number of output argument mismatch.');
 end
 
 %% Helper functions
