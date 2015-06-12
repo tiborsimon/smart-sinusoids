@@ -137,7 +137,7 @@ end
 
 function [valid, errormsg] = validate_x(value)
     errormsg = 'Parameter x has to be one of these: index, norm, time';
-    valid = strcmp(value, 'index') || strcmp(value, 'norm') || strcmp(value, 'time');
+    valid = strcmp(value, 'index') || strcmp(value, 'norm') || strcmp(value, 'time') || strcmp(value, 'militime') || strcmp(value, 's') || strcmp(value, 'ms');
 end
 
 validators.A  = @validate_A;
@@ -228,14 +228,18 @@ elseif nargout == 2
     t = 1:length(s);
     t = t(:);
     switch data.x
+        case 'index'
         case 'norm'
             t = t./max(t);
-        case 'time'
+        otherwise
             try
                 t = t./max(t);
                 t = t.* get_L();
+                if strcmp(data.x, 'militime') || strcmp(data.x, 'ms')
+                    t = t*1000;
+                end
             catch
-                warning('notenoughinformation', 'There is not enough information to calculate the lenght of the signal. x vector calculation falled back to index mode.');
+                warning('There is not enough information to calculate the lenght of the signal. x vector calculation falled back to index mode.');
             end
             
     end
