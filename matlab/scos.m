@@ -22,6 +22,7 @@ function [out1, out2] = scos( varargin )
 %       N   []   - number of periods in the signal
 %       n   []   - sample count
 %       L   [s]  - signal length
+%       x   [st] - optional time vector scaling (see details later)
 %
 %   Possible use cases
 %
@@ -29,7 +30,7 @@ function [out1, out2] = scos( varargin )
 %          n - number of samples
 %          N - periods in it
 %
-%          signal = scos('nN', 200, 2.5);
+%          stem( scos('n N', 200, 1.5) )
 %
 %
 %       Case 2
@@ -37,7 +38,7 @@ function [out1, out2] = scos( varargin )
 %          N  - periods in the signal
 %          fs - with a given sample frequency
 %          
-%          signal = scos('LNfs', 0.01, 3, 48e3);
+%          stem( scos('L N fs', 0.001, 3, 48e3) )
 %          
 %
 %       Case 3
@@ -45,7 +46,7 @@ function [out1, out2] = scos( varargin )
 %          N  - periods in the signal
 %          fs - with a given sample frequency
 %          
-%          signal = scos('fNfs', 440, 3.3, 48e3);
+%          stem( scos('f N fs', 440, 1.3, 48e3) )
 %
 %
 %       Case 4
@@ -53,7 +54,7 @@ function [out1, out2] = scos( varargin )
 %          n  - number of samples
 %          fs - with a given sample frequency
 %          
-%          signal = scos('fnfs', 440, 200, 48e3);
+%          stem( scos('f n fs', 440, 200, 48e3) )
 %
 %
 %       Case 5
@@ -61,7 +62,7 @@ function [out1, out2] = scos( varargin )
 %          L  - signal lenght
 %          fs - with a given sample frequency
 %          
-%          signal = scos('fLfs', 800, 0.001, 48e3);
+%          stem( scos('f L fs', 800, 0.001, 48e3) )
 %
 %
 %   In every case every parameter can be substituted with the eqvivalent
@@ -69,6 +70,38 @@ function [out1, out2] = scos( varargin )
 %
 %   The amplitude (A) and phase (phi) are optional with the defualt values
 %   A=1 and phi=0.
+%
+%   There are three output parameter configurations
+%
+%       No output parameter
+%
+%           In this case Smart Sinusouds will output the signal vector in place.
+%           This could be useful during plotting
+%
+%           stem( scos('f N fs', 440, 1.3, 48e3) )
+%
+%       One output parameter
+%
+%           With this configuration you can save the signal vector into a variable.
+%
+%           s = scos('f N fs', 440, 1.3, 48e3);
+%           stem(s)
+%
+%
+%       Two output parameter mode
+%
+%           If you would like to use the time vector as well, you can generate it
+%           too. The possibble values are the following:
+%
+%           | Time vector type | x parameter    | Description                                     |
+%           |------------------|----------------|-------------------------------------------------|
+%           | Sample count     | index          | Sample indexes from 1 to the number of samples. |
+%           | Normalized       | norm           | Normalized vector spans from 0 to 1.            |
+%           | Time [s]         | time or s      | Time duration of the signal in seconds.         |
+%           | Time [ms]        | militime or ms | Time duration of the signal in seconds.         |
+%
+%           [t,s] = scos('f N fs x', 440, 1.3, 48e3, 'ms');
+%           stem(t,s)
 %
 %   For more detailed description, visit:
 %   http://tiborsimon.github.io/tools/smart-sinusoids/
