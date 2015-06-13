@@ -20,6 +20,9 @@ URL: https://github.com/tiborsimon/simple-input-parser
 
 # Possible parameters
 
+<img src="http://tiborsimon.github.io/images/smart-sinusoids/detailed.png" width="700" />
+
+
 | Symbol | Unit | Name |
 |:-----:|:---:|:------|
 | __A__   | []   | signal amplitude 
@@ -32,8 +35,6 @@ URL: https://github.com/tiborsimon/simple-input-parser
 | __n__   | []   | sample count
 | __L__   | [s]  | signal length
 | __x__   | [st] | optional time vector scaling (see details later)
-
-<img src="http://tiborsimon.github.io/images/smart-sinusoids/detailed.png" />
 
 # Possible use cases
 
