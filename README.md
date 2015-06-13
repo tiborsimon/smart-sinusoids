@@ -17,6 +17,8 @@ URL: https://github.com/tiborsimon/simple-input-parser
 ## Features
 - fast and easy signal generation
 - flexible parameter handling
+- arbitrary parameter configurations
+- optional time vector generation
 
 # Possible parameters
 
@@ -66,9 +68,9 @@ stem( ssin('L N fs', 0.001, 3, 48e3) )
 ```
 
 ### Case 3
--`f`  - signal frequency
--`N`  - periods in the signal
--`fs` - with a given sample frequency
+- `f`  - signal frequency
+- `N`  - periods in the signal
+- `fs` - with a given sample frequency
 
 ```
 stem( ssin('f N fs', 440, 1.3, 48e3) )
