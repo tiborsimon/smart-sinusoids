@@ -1,6 +1,6 @@
 # Smart Sinusoids
 
-<img src="http://tiborsimon.github.io/images/smart-sinusoids/3d.png" width="300" />
+<img src="http://tiborsimon.github.io/images/smart-sinusoids/3d.png" width="600" />
 
 The easiest way to generate a sine or cosine signal in MATLAB. With this library there are almost infinite ways to describe and generate a sinusoid signals. 
 
@@ -33,7 +33,7 @@ URL: https://github.com/tiborsimon/simple-input-parser
 | __L__   | [s]  | signal length
 | __x__   | [st] | optional time vector scaling (see details later)
 
-<img src="http://tiborsimon.github.io/images/smart-sinusoids/detailed.png" width="300" />
+<img src="http://tiborsimon.github.io/images/smart-sinusoids/detailed.png" />
 
 # Possible use cases
 
