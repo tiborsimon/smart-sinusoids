@@ -1,6 +1,6 @@
 # Smart Sinusoids
 
-<img src="/images/smart-sinusoids/3d.png" />
+<img src="http://tiborsimon.github.io/images/smart-sinusoids/3d.png" />
 
 The easiest way to generate a sine or cosine signal in MATLAB. With this library there are almost infinite ways to describe and generate a sinusoid signals. 
 
