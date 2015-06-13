@@ -38,6 +38,16 @@ URL: https://github.com/tiborsimon/simple-input-parser
 
 # Possible use cases
 
+With these parameters there are 5 main generation methods for sinusoid signals. Each of them have alternatives that doesn't count as an individual generation method due to the used parameters can be derived from the others if you apply the following formulas: _fs = 1/dt_, _T = 1/f_ and _L=n*dt_.
+
+| Method index | Required parameters | CT DT lock     | Description  |
+|:-------------:|:------------------|:--------------|:-------------|
+| 1 | `n`, `N`          | No  | a signal consisting of `n` data points with `N`<br> periods in it
+| 2 | `L`, `N`, `fs`    | Yes | `L` seconds long signal consisting `N` periods<br> with the frequency `f`
+| 3 | `f`, `N`, `fs`    | Yes | a signal sampled at `fs` sampling rate with `N` <br>periods in it with the frequency `f`
+| 4 | `f`, `n`, `fs`    | Yes | Generating a sinusoid signal consisting of `n` <br>data points sampled at `fs` sampling rate with the frequency `f`
+| 5 | `f`, `L`, `fs`    | Yes | a signal sampled at `fs` sampling rate with the <br>duration of `L` seconds with the frequency `f`
+
 ### Case 1
 - `n` - number of samples
 - `N` - periods in it
@@ -92,7 +102,7 @@ A=1 and phi=0.
 
 There are three output parameter configurations
 
-## No output parameter
+### No output parameter
 
 In this case Smart Sinusouds will output the signal vector in place.
 This could be useful during plotting
@@ -101,7 +111,7 @@ This could be useful during plotting
 stem( ssin('f N fs', 440, 1.3, 48e3) )
 
 ```
-## One output parameter
+### One output parameter
 
 With this configuration you can save the signal vector into a variable.
 
@@ -110,7 +120,7 @@ s = ssin('f N fs', 440, 1.3, 48e3);
 stem(s)
 ```
 
-## Two output parameter mode
+### Two output parameter mode
 
 If you would like to use the time vector as well, you can generate it
 too. The possibble values are the following:
@@ -126,5 +136,10 @@ too. The possibble values are the following:
 [t,s] = ssin('f N fs x', 440, 1.3, 48e3, 'ms');
 stem(t,s)
 ```
+
+## License
+
+This project is under the __MIT license__. 
+See the included license file for further details.
 
 
