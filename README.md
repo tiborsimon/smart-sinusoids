@@ -13,6 +13,10 @@ Simple Input Parser which is a package that allows you to create
 functions with a more convenient interface.
 URL: https://github.com/tiborsimon/simple-input-parser
 
+## Installation
+
+- Download the latest release of __Smart Sinusoids__ <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/latest-release.png" /></a> 
+- Download the latest release of __Simple Input Parser__ <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/latest-release.png" /></a>
 
 ## Features
 - fast and easy signal generation
