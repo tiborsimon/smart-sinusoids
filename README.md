@@ -15,14 +15,14 @@ URL: https://github.com/tiborsimon/simple-input-parser
 
 ## Installation
 
-#### Without MATLAB library system
+#### Without [MATLAB library system](https://github.com/tiborsimon/MATLAB-Library-System-template)
 - Download the <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/core/latest-release.png" align="center" /></a>  of <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">__Smart Sinusoids__</a>.
 - Download the <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/core/latest-release.png" align="center" /></a> of <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">__Simple Input Parser__</a>.
 - Copy both `.m` files into a directory.
 - Add that directory to your MATLAB path (by right clicking on it in MATLAB Current Folder view).
 - Done. You can use __Smart Sinusoids__ (and of course _Simple Input Parser_ too).
 
-#### With MATLAB library system
+#### With [MATLAB library system](https://github.com/tiborsimon/MATLAB-Library-System-template)
 - Download the <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/core/latest-release.png" align="center" /></a>  of <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">__Smart Sinusoids__</a>.
 - Download the <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/core/latest-release.png" align="center" /></a> of <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">__Simple Input Parser__</a>.
 - Create two direcory `simple_input_parser` and `smart_sinusoids` into your _MATLAB library system library_.
