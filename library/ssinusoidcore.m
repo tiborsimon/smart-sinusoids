@@ -116,12 +116,9 @@ validators.L  = @validate_L;
 validators.x  = @validate_x;
 
 %% Dependency check
-try
-    simple_input_parser(data, raw_varargin, validators);
-catch
+if exist('simple_input_parser') == 0
     throw_exception('dependencyerror', 'Missing module: Simple Input Parser. You can download it from https://github.com/tiborsimon/simple-input-parser.');
-end
-    
+end  
 
 %% Input parameter parsing
 varlen = length(raw_varargin);
