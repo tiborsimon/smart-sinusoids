@@ -1,2 +1,2 @@
-My Library
-v1.0
+Smart Sinusoids
+v1.1
