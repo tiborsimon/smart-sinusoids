@@ -25,7 +25,7 @@ functions with a more convenient interface.
 - Run the `install.m` script inside the downloaded folder.
 - Done. You can use __Smart Sinusoids__ (and of course _Simple Input Parser_ too).
 
-_This installation method is powered by the [MATLAB library system](https://github.com/tiborsimon/MATLAB-Library-System-template)._
+_This installation method is powered by the [MATLAB Library System](http://tiborsimon.github.io/programming/matlab-library-system/)._
 
 ## Features
 - fast and easy signal generation
