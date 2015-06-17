@@ -118,31 +118,30 @@ validators.x  = @validate_x;
 
 %% Input parameter parsing
 varlen = length(raw_varargin);
-switch varlen
-    case {0, 1}     % default parameter mode
-        data.phi = 0;
-        data.A   = 1;
-        data.f   = 0;
-        data.fs  = 0;
-        data.T   = 0;
-        data.dt  = 0;
-        data.N   = 0;
-        data.n   = 0;
-        data.L   = 0;
-        data.x  = 'index';
+if varlen < 2
+    data.phi = 0;
+    data.A   = 1;
+    data.f   = 0;
+    data.fs  = 0;
+    data.T   = 0;
+    data.dt  = 0;
+    data.N   = 1;
+    data.n   = 42;
+    data.L   = 0;
+    data.x  = 'index';
 
-        flags.phi = 0;
-        flags.A   = 0;
-        flags.f   = 0;
-        flags.fs  = 0;
-        flags.T   = 0;
-        flags.dt  = 0;
-        flags.N   = 0;
-        flags.n   = 0;
-        flags.L   = 0;
-        flags.x  = 0;
-    otherwise  % normal mode
-        [data, flags] = simple_input_parser(data, raw_varargin, validators);
+    flags.phi = 0;
+    flags.A   = 0;
+    flags.f   = 0;
+    flags.fs  = 0;
+    flags.T   = 0;
+    flags.dt  = 0;
+    flags.N   = 1;
+    flags.n   = 1;
+    flags.L   = 0;
+    flags.x   = 0;
+else
+    [data, flags] = simple_input_parser(data, raw_varargin, validators);
 end
 
 %% Error handling
