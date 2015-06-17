@@ -43,21 +43,33 @@ function install()
     %% Based on the previous test, add the libraries or send an error message
 
     if check
+        [name, version, message] = core_getlibrarydata();
+        
+        disp(' ');
+        disp('======================================================================================');
+        disp([' MATLAB Library System: installing ', name, ' ', version, '..']);
+        disp('--------------------------------------------------------------------------------------');
+        
         allLibraryDirectories = regexp(genpath('library'),['[^;]*'],'match');
 
         for k=1:length(allLibraryDirectories)
             newPath = strcat(rootDirectory,allLibraryDirectories{k});
             addpath(newPath);
-            disp(['    path added: ', newPath]);
+            disp(['   path added: ', newPath]);
         end
 
         savepath;
 
-        [name, version] = core_getlibrarydata();
-
-        disp(' ');
-        disp([name, ' ', version, ' has been successfully installed on your system!']);
-        disp(' ');
+        disp('--------------------------------------------------------------------------------------');
+        disp([' ', name, ' ', version, ' has been successfully installed on your system!']);
+        if message > 0
+            disp('--------------------------------------------------------------------------------------');
+            disp([' ', message]);
+            disp('======================================================================================');
+        else
+            disp('======================================================================================');
+        end
+        
         clear name version newPath rootDirectory allLibraryDirectories
     else
         clear check err rootDirectory
@@ -77,10 +89,11 @@ function [ ret ] = core_checkenvironment( currentFolders )
     ret = result == 1; 
 end
 
-function [ name, version ] = core_getlibrarydata()
+function [ name, version, message ] = core_getlibrarydata()
     fileID = fopen('librarydata.txt');
     name = fgetl(fileID);
     version = fgetl(fileID);
+    message = fgetl(fileID);
     fclose(fileID);
 end
 
