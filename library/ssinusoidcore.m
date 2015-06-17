@@ -114,6 +114,13 @@ validators.N  = @validate_N;
 validators.n  = @validate_n;
 validators.L  = @validate_L;
 validators.x  = @validate_x;
+
+%% Dependency check
+try
+    simple_input_parser(data, raw_varargin, validators);
+catch
+    throw_exception('dependencyerror', 'Missing module: Simple Input Parser. You can download it from https://github.com/tiborsimon/simple-input-parser.');
+end
     
 
 %% Input parameter parsing
@@ -388,7 +395,6 @@ end
             throw('.');
         end
     end
-
     
     
 %% Helper functions
