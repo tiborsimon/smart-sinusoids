@@ -22,7 +22,7 @@ The easiest way to generate a sine or cosine signal in MATLAB. With this library
 
 
 ## Dependecy
-To use ssin or ssin, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.github.io/programming/simple-input-parser/" target="_blank">Simple Input Parser</a> which is a package that allows you to create functions with a more convenient interface.
+To use ssin or ssin, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.github.io/programming/simple-input-parser/" target="_blank"><b>Simple Input Parser</b></a> which is a package that allows you to create functions with a more convenient interface.
 
 ## Installation
 
