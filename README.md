@@ -13,7 +13,7 @@ The easiest way to generate a sine or cosine signal in MATLAB. With this library
 <a title="Goto discussion" href="http://tiborsimon.github.io/programming/smart-sinusoids/#discussion" target="_blank">
    <img src="https://img.shields.io/badge/discussion-join-orange.svg?style=flat" />
 </a>
-<a title="Dependency" href="#dependency" target="_blank">
+<a title="Dependency" href="#dependency">
    <img src="http://img.shields.io/badge/dependency-simple--input--parser-red.svg?style=flat" />
 </a>
 <a title="License" href="#license">
@@ -22,13 +22,12 @@ The easiest way to generate a sine or cosine signal in MATLAB. With this library
 
 
 ## Dependecy
-To use ssin or ssin, you need to download and add to your path <a title="Simple Input Parser" href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">
-   <img src="https://img.shields.io/badge/simple--input--parser-v1.3-green.svg?style=flat" />
-</a> which is a package that allows you to create functions with a more convenient interface.
+To use ssin or ssin, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.github.io/programming/simple-input-parser/" target="_blank">Simple Input Parser</a> which is a package that allows you to create functions with a more convenient interface.
 
 ## Installation
 
-#### 1. Installing the dependency: <a title="Simple Input Parser" href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">
+#### 1. Installing the dependency: 
+- Download the latest dependency version: <a title="Simple Input Parser" href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">
    <img src="https://img.shields.io/badge/simple--input--parser-v1.3-green.svg?style=flat" />
 </a>
 - Run the `install.m` script inside the downloaded folder.
