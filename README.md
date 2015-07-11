@@ -4,22 +4,41 @@
 
 The easiest way to generate a sine or cosine signal in MATLAB. With this library there are almost infinite ways to describe and generate a sinusoid signals. 
 
-<a href="http://tiborsimon.github.io/programming/smart-sinusoids/" target="_blank"><img src="http://tiborsimon.github.io/images/core/corresponding-article.png" /></a>   <a href="http://tiborsimon.github.io/programming/smart-sinusoids/#discussion" target="_blank"><img src="http://tiborsimon.github.io/images/core/join-to-the-discussion.png" /></a>   <a href="https://github.com/tiborsimon/simple-input-parser" target="_blank"><img src="http://tiborsimon.github.io/images/core/dependency.png" /></a>
+<a title="Latest version" href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">
+   <img src="https://img.shields.io/badge/version-v1.1-green.svg?style=flat" />
+</a>
+<a title="Goto article" href="http://tiborsimon.github.io/programming/smart-sinusoids/" target="_blank">
+   <img src="https://img.shields.io/badge/article-read-blue.svg?style=flat" />
+</a>
+<a title="Goto discussion" href="http://tiborsimon.github.io/programming/smart-sinusoids/#discussion" target="_blank">
+   <img src="https://img.shields.io/badge/discussion-join-orange.svg?style=flat" />
+</a>
+<a title="Dependency" href="#dependency" target="_blank">
+   <img src="http://img.shields.io/badge/dependency-simple--input--parser-red.svg?style=flat" />
+</a>
+<a title="License" href="#license">
+   <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" />
+</a>
 
 
 ## Dependecy
-To use ssin or ssin, you need to download and add to your path <a href="https://github.com/tiborsimon/simple-input-parser" target="_blank" >Simple Input Parser</a> which is a package that allows you to create functions with a more convenient interface.
+To use ssin or ssin, you need to download and add to your path <a title="Simple Input Parser" href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">
+   <img src="https://img.shields.io/badge/simple--input--parser-v1.3-green.svg?style=flat" />
+</a> which is a package that allows you to create functions with a more convenient interface.
 
 ## Installation
 
-#### 1. Installing the dependency: [Simple Input Parser](https://github.com/tiborsimon/simple-input-parser)
-- Download the <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/core/latest-release.png" align="center" /></a> of <a href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">__Simple Input Parser__</a>.
+#### 1. Installing the dependency: <a title="Simple Input Parser" href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">
+   <img src="https://img.shields.io/badge/simple--input--parser-v1.3-green.svg?style=flat" />
+</a>
 - Run the `install.m` script inside the downloaded folder.
 - Done. Now you have __Simple Input Parser__ on your system.
 
 
 #### 2. Installing __Smart Sinusoids__ 
-- Download the <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank"><img src="http://tiborsimon.github.io/images/core/latest-release.png" align="center" /></a>  of <a href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">__Smart Sinusoids__</a>.
+- Download the latest release: <a title="Latest release" href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">
+   <img src="https://img.shields.io/badge/smart--sinusoids-v1.1-green.svg?style=flat" />
+</a>
 - Run the `install.m` script inside the downloaded folder.
 - Done. You can use __Smart Sinusoids__ (and of course _Simple Input Parser_ too).
 
