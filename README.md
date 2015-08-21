@@ -5,12 +5,12 @@
 The easiest way to generate a sine or cosine signal in MATLAB. With this library there are almost infinite ways to describe and generate a sinusoid signals. 
 
 <a title="Latest version" href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">
-   <img src="https://img.shields.io/badge/version-v1.1-green.svg?style=flat" />
+   <img src="https://img.shields.io/badge/version-v1.2.0-green.svg?style=flat" />
 </a>
-<a title="Goto article" href="http://tiborsimon.github.io/programming/smart-sinusoids/" target="_blank">
+<a title="Goto article" href="http://tiborsimon.io/projects/smart-sinusoids/" target="_blank">
    <img src="https://img.shields.io/badge/article-read-blue.svg?style=flat" />
 </a>
-<a title="Goto discussion" href="http://tiborsimon.github.io/programming/smart-sinusoids/#discussion" target="_blank">
+<a title="Goto discussion" href="http://tiborsimon.io/projects/smart-sinusoids/#discussion" target="_blank">
    <img src="https://img.shields.io/badge/discussion-join-orange.svg?style=flat" />
 </a>
 <a title="Dependency" href="#dependency">
