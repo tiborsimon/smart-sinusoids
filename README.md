@@ -27,21 +27,17 @@ To use ssin or ssin, you need to download and add to your path <a title="Simple 
 ## Installation
 
 #### 1. Installing the dependency: 
-- Download the latest dependency version: <a title="Simple Input Parser" href="https://github.com/tiborsimon/simple-input-parser/releases/latest" target="_blank">
-   <img src="https://img.shields.io/badge/simple--input--parser-v1.3-green.svg?style=flat" />
-</a>
-- Run the `install.m` script inside the downloaded folder.
+- Download the [latest release of Simple Input Parser](https://github.com/tiborsimon/simple-input-parser/releases/latest).
+- Run the `install.m` script or the `install` command inside the downloaded `simple-input-parser` folder.
 - Done. Now you have __Simple Input Parser__ on your system.
 
 
 #### 2. Installing __Smart Sinusoids__ 
-- Download the latest release: <a title="Latest release" href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">
-   <img src="https://img.shields.io/badge/smart--sinusoids-v1.1-green.svg?style=flat" />
-</a>
-- Run the `install.m` script inside the downloaded folder.
+- Download the [latest release](https://github.com/tiborsimon/smart-sinusoids/releases/latest).
+- Run the `install.m` script or the `install` command inside the downloaded `smart-sinusoids` folder.
 - Done. You can use __Smart Sinusoids__ (and of course _Simple Input Parser_ too).
 
-_This installation method is powered by the <a href="http://tiborsimon.github.io/programming/matlab-library-system/" target="_blank" >MATLAB Library System</a>._
+_This installation method is powered by the <a href="http://tiborsimon.io/projects/matlab-library-system/" target="_blank" >MATLAB Library System</a>._
 
 ## Features
 - fast and easy signal generation
