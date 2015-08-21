@@ -1,3 +1,0 @@
-Smart Sinusoids
-v1.1
-HINT: Test your installation by typing: stem(ssin())
