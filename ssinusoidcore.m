@@ -117,7 +117,7 @@ validators.x  = @validate_x;
 
 %% Dependency check
 if exist('simple_input_parser') == 0
-    throw_exception('dependencyerror', 'Missing module: Simple Input Parser. You can download it from https://github.com/tiborsimon/simple-input-parser.');
+    throw_exception('dependencyerror', 'Missing module: Simple Input Parser. You can download it from https://github.com/tiborsimon/simple-input-parser/releases/latest.');
 end  
 
 %% Input parameter parsing
