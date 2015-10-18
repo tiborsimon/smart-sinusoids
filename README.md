@@ -1,6 +1,6 @@
 # Smart Sinusoids
 
-<img src="http://tiborsimon.github.io/images/smart-sinusoids/3d.png" width="600" />
+<img src="http://tiborsimon.io/images/smart-sinusoids/3d.png" width="600" />
 
 The easiest way to generate a sine or cosine signal in MATLAB. With this library there are almost infinite ways to describe and generate a sinusoid signals. 
 
@@ -19,7 +19,6 @@ The easiest way to generate a sine or cosine signal in MATLAB. With this library
 <a title="License" href="#license">
    <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" />
 </a>
-
 
 ## Dependecy
 To use _ssin_ or _scos_, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.io/projects/simple-input-parser/" target="_blank"><b>Simple Input Parser</b></a> which is a package that allows you to create functions with a more convenient interface for the users.
@@ -47,7 +46,7 @@ _This installation method is powered by the <a href="http://tiborsimon.io/projec
 
 # Possible parameters
 
-<img src="http://tiborsimon.github.io/images/smart-sinusoids/detailed.png" width="700" />
+<img src="http://tiborsimon.io/images/smart-sinusoids/detailed.png" width="700" />
 
 
 | Symbol | Unit | Name |
@@ -168,5 +167,4 @@ stem(t,s)
 
 This project is under the __MIT license__. 
 See the included license file for further details.
-
 
