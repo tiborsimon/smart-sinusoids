@@ -21,7 +21,7 @@ The easiest way to generate a sine or cosine signal in MATLAB. With this library
 </a>
 
 ## Dependecy
-To use _ssin_ or _scos_, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.io/projects/simple-input-parser/" target="_blank"><b>Simple Input Parser</b></a> which is a package that allows you to create functions with a more convenient interface for the users.
+To use _ssin_ or _scos_, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.io/projects/TSPR0002/" target="_blank"><b>Simple Input Parser</b></a> which is a package that allows you to create functions with a more convenient interface for the users.
 
 ## Installation
 
@@ -36,7 +36,7 @@ To use _ssin_ or _scos_, you need to download and add to your path <a title="Sim
 - Run the `install.m` script or the `install` command inside the downloaded `smart-sinusoids` folder.
 - Done. You can use __Smart Sinusoids__ (and of course _Simple Input Parser_ too).
 
-_This installation method is powered by the <a href="http://tiborsimon.io/projects/matlab-library-system/" target="_blank" >MATLAB Library System</a>._
+_This installation method is powered by the <a href="http://tiborsimon.io/projects/TSPR0001/" target="_blank" >MATLAB Library System</a>._
 
 ## Features
 - fast and easy signal generation
