@@ -7,13 +7,13 @@ The easiest way to generate a sine or cosine signal in MATLAB. With this library
 <a title="Latest version" href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">
    <img src="https://img.shields.io/badge/version-v1.3.0-green.svg?style=flat" />
 </a>
-<a title="Goto article" href="http://tiborsimon.io/projects/TSPR0003/" target="_blank">
+<a title="Goto article" href="http://tiborsimon.io/dsp/generating-sinusoid-signals/" target="_blank">
    <img src="https://img.shields.io/badge/article-read-blue.svg?style=flat" />
 </a>
-<a title="Goto discussion" href="http://tiborsimon.io/projects/TSPR0003/#discussion" target="_blank">
+<a title="Goto discussion" href="http://tiborsimon.io/dsp/generating-sinusoid-signals/#discussion" target="_blank">
    <img src="https://img.shields.io/badge/discussion-join-orange.svg?style=flat" />
 </a>
-<a title="Dependency" href="#dependency">
+<a title="Dependency" href="#dependency" href="https://github.com/tiborsimon/simple-input-parser">
    <img src="http://img.shields.io/badge/dependency-simple--input--parser-red.svg?style=flat" />
 </a>
 <a title="License" href="#license">
