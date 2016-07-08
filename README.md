@@ -1,24 +1,13 @@
 # Smart Sinusoids
 
-<img src="http://tiborsimon.io/images/smart-sinusoids/3d.png" width="600" />
+<img src="http://tiborsimon.io/images/articles/smart-sinusoids/3d.png" width="600" />
 
 The easiest way to generate a sine or cosine signal in MATLAB. With this library there are almost infinite ways to describe and generate a sinusoid signals. 
 
-<a title="Latest version" href="https://github.com/tiborsimon/smart-sinusoids/releases/latest" target="_blank">
-   <img src="https://img.shields.io/badge/version-v1.3.0-green.svg?style=flat" />
-</a>
-<a title="Goto article" href="http://tiborsimon.io/dsp/generating-sinusoid-signals/" target="_blank">
-   <img src="https://img.shields.io/badge/article-read-blue.svg?style=flat" />
-</a>
-<a title="Goto discussion" href="http://tiborsimon.io/dsp/generating-sinusoid-signals/#discussion" target="_blank">
-   <img src="https://img.shields.io/badge/discussion-join-orange.svg?style=flat" />
-</a>
-<a title="Dependency" href="#dependency" href="https://github.com/tiborsimon/simple-input-parser">
-   <img src="http://img.shields.io/badge/dependency-simple--input--parser-red.svg?style=flat" />
-</a>
-<a title="License" href="#license">
-   <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" />
-</a>
+[![Gitter](https://img.shields.io/gitter/room/tiborsimon/smart-sinusoids.svg?maxAge=2592000)](https://gitter.im/tiborsimon/smart-sinusoids?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![GitHub release](https://img.shields.io/github/release/tiborsimon/smart-sinusoids.svg?maxAge=2592000)](https://github.com/tiborsimon/smart-sinusoids/releases/latest)
+[![license](https://img.shields.io/github/license/tiborsimon/smart-sinusoids.svg?maxAge=2592000)](https://github.com/tiborsimon/smart-sinusoids#license)
+[![Github All Releases](https://img.shields.io/github/downloads/tiborsimon/smart-sinusoids/total.svg?maxAge=2592000)](https://github.com/tiborsimon/smart-sinusoids/releases/latest)
 
 ## Dependecy
 To use _ssin_ or _scos_, you need to download and add to your path <a title="Simple Input Parser" href="http://tiborsimon.io/projects/TSPR0002/" target="_blank"><b>Simple Input Parser</b></a> which is a package that allows you to create functions with a more convenient interface for the users.
@@ -46,7 +35,7 @@ _This installation method is powered by the <a href="http://tiborsimon.io/projec
 
 # Possible parameters
 
-<img src="http://tiborsimon.io/images/smart-sinusoids/detailed.png" width="700" />
+<img src="http://tiborsimon.io/images/articles/smart-sinusoids/detailed.png" width="700" />
 
 
 | Symbol | Unit | Name |
